@@ -1,0 +1,1 @@
+Reference occupancy map rasterized from maze_fast.sdf geometry. Copied from prior simulator workspace; not a new SLAM scan. Used only for simulation.

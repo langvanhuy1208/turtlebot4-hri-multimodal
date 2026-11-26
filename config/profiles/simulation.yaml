@@ -1,0 +1,9 @@
+mode: simulation
+namespace: ''
+use_sim_time: true
+perception: gazebo_ground_truth
+base_frame: base_link
+map_frame: map
+warning_distance: 1.5
+stop_distance: 0.8
+clear_hold: 1.0

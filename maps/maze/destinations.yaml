@@ -1,0 +1,66 @@
+version: 1
+frame_id: map
+map: ../bai7/map.yaml
+map_sha256: 33bf35d4241a6b92ef8ecb733775942b22b890d30a371f57f52ac8511ce638e8
+minimum_clearance_m: 0.35
+regions:
+- id: ban_1
+  name: Bàn số 1
+  aliases:
+  - A
+  - Phòng học
+  - khu vực A
+  - phòng A
+  - a
+  - khu vực a a
+  - khu A
+  - bàn 1
+  - bàn số 1
+  - bàn một
+  goal:
+    x: -1.975
+    y: 0.025
+    yaw: 0.0
+- id: ban_2
+  name: Bàn số 2
+  aliases:
+  - B
+  - Phòng thí nghiệm
+  - khu vực B
+  - phòng B
+  - bê
+  - khu vực bê
+  - khu vực bờ
+  - khu B
+  - khu bê
+  - khu bờ
+  - phòng bê
+  - bàn 2
+  - bàn số 2
+  - bàn hai
+  goal:
+    x: 2.025
+    y: 3.025
+    yaw: 0.0
+- id: ban_3
+  name: Bàn số 3
+  aliases:
+  - C
+  - Hành lang
+  - khu vực C
+  - phòng C
+  - xê
+  - khu vực xê
+  - khu vực cờ
+  - hành lan
+  - khu C
+  - khu xê
+  - khu cờ
+  - phòng xê
+  - bàn 3
+  - bàn số 3
+  - bàn ba
+  goal:
+    x: 2.025
+    y: -2.975
+    yaw: 0.0

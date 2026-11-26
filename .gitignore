@@ -1,0 +1,27 @@
+build/
+install/
+log/
+results/
+__pycache__/
+*.py[cod]
+.venv*/
+.cache*/
+
+# Máy cục bộ / thông tin kết nối: không đưa vào GitHub public.
+.env
+.env.*
+*.pem
+*.key
+
+# Model bên thứ ba tải riêng theo hướng dẫn trong README.
+/models/*
+!/models/README.md
+
+# Dữ liệu sinh ra trong từng phiên quét, có thể chứa map của phòng thật.
+/maps/recovery/
+/maps/slam_runs/
+/maps/user_saved/
+
+# Thông tin kết nối robot và mẫu âm thanh cá nhân không public.
+/config/robot_connection.env
+/tests/audio/

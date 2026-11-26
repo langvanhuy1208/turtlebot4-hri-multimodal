@@ -1,0 +1,13 @@
+mode: robot
+namespace: robot3
+use_sim_time: false
+perception: rgb_yolo_lidar
+base_frame: base_link
+map_frame: map
+rgb_topic: oakd/rgb/preview/image_raw
+info_topic: oakd/rgb/preview/camera_info
+warning_distance: 1.5
+stop_distance: 0.8
+clear_hold: 1.0
+# Network discovery must be configured using your actual robot's connection instructions.
+# Scan, TF, CameraInfo and initial localization must be verified before motion.

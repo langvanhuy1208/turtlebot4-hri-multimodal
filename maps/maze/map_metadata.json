@@ -1,0 +1,9 @@
+{
+  "name": "Mê cung có sẵn 20 × 20 m",
+  "spawn_initial_pose": {
+    "x": 2.0,
+    "y": 0.0,
+    "yaw": 3.141592653589793
+  },
+  "source": "Existing maze_fast.sdf geometry reference; not a new SLAM scan"
+}
